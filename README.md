@@ -4,8 +4,7 @@
 
 ## Gereksinimler
 
-- .NET 8 SDK
-- PostgreSQL (veya SQL Server)
+- .NET 10 SDK
 
 ## Kurulum
 
@@ -21,17 +20,23 @@ dotnet run
 
 | Komut | Aciklama |
 |-------|----------|
-| dotnet run | Development server |
-| dotnet build | Build |
-| dotnet test | Testleri calistir |
-| dotnet publish | Production build |
+| `dotnet run` | Development server |
+| `dotnet build` | Build |
+| `dotnet test` | Testleri calistir |
+| `dotnet publish` | Production build |
+
+## Tech Stack
+
+- **Framework:** ASP.NET Core Web API
+- **Dil:** C# (.NET 10)
+- **API Docs:** OpenAPI (Swagger)
 
 ## Git Workflow
 
-- main - Production (sadece PR ile merge)
-- develop - Development
-- feature/xxx - Yeni ozellik
-- fix/xxx - Bug fix
+- `main` - Production (sadece PR ile merge)
+- `develop` - Development
+- `feature/xxx` - Yeni ozellik
+- `fix/xxx` - Bug fix
 
 ### Commit Formati
 ```
